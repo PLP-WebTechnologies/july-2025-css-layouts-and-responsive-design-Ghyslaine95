@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Flexbox & Grid</title>
+     <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Header with Logo and Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <span>Layout Masters</span>
+                </a>
+               <nav id="mainNav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                         <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+                        
+   
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Mastering CSS Layout Techniques</h1>
+            <p>Learn how to create responsive, modern web layouts using Flexbox and CSS Grid. Build websites that look great on any device!</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Main Content Area with Grid -->
+        <div class="main-content">
+            <!-- Articles Section -->
+            <section class="articles">
+                <article class="article-card">
+                    <img src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CSS Grid Layout">
+                    <div class="article-content">
+                        <h2>Understanding CSS Grid Layout</h2>
+                    <p>CSS Grid Layout offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/33127482/pexels-photo-33127482.jpeg" alt="Flexbox Layout">
+                    <div class="article-content">
+                        <h2>Flexbox for Responsive Design</h2>
+                        <p>The Flexible Box Layout Module makes it easier to design flexible responsive layout structure without using float or positioning.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <img src="https://images.unsplash.com/photo-1460467820054-c87ab43e9b59?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Responsive Design">
+                    <div class="article-content">
+                        <h2>Responsive Design Principles</h2>
+                        <p>Responsive web design makes your web page look good on all devices. It uses CSS and HTML to resize, hide, shrink, enlarge, or move the content.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h2>Categories</h2>
+                    <ul class="categories">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Responsive Layouts</a></li>
+                        <li><a href="#">CSS Techniques</a></li>
+                        </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h2>Popular Tags</h2>
+                    <div class="tags">
+                        <span class="tag">CSS Grid</span>
+                        <span class="tag">Flexbox</span>
+                        <span class="tag">Responsive</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">Layout</span>
+                        <span class="tag">Design</span>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget newsletter">
+                    <h2>Newsletter</h2>
+                    <p>Subscribe to get updates on new tutorials</p>
+                    <form>
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Testimonials Section with Grid -->
+        <section class="testimonials">
+            <div class="testimonial">
+                <p>"This tutorial helped me understand CSS Grid in a way no other resource did. Now I can create complex layouts with ease!"</p>
+                </div>
+                <div class="testimonial">
+                <p>"The Flexbox examples were incredibly clear and practical. I've immediately applied these techniques to my projects."</p>
+               </div>
+               <div class="testimonial">
+                <p>"The responsive design principles explained here are gold. My websites now look great on all devices thanks to these tips."</p>
+               </div>
+        </section>
+    </div>
+
+    <!-- Footer with Grid -->
+    <footer>
+       <p>&copy; 2023 Layout Masters. All rights reserved.</p>
+    </footer>
+</body>
+</html>
